@@ -4,8 +4,6 @@ import platform
 ADDR = "127.0.0.1"		 # change	
 PORT = 8080      		 # change
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
 def connect():
 	print("Connecting....")
 	conn = s.connect_ex((ADDR, PORT))
@@ -25,4 +23,7 @@ def main():
 
 
 if __name__ == '__main__':
-	main()
+	while True:
+		s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+		main()
+		print("Waiting for new connection...")
