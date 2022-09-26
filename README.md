@@ -8,3 +8,4 @@
   backdoor.py - send sys info over to haxor (INE PTS course)  
   content_stealer.py - sending over file contents  
   listdir.py - sending over user dir listing (INE PTS course)  
+  brute-login.py - bruteforcing web apps logins  
