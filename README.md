@@ -9,3 +9,5 @@
   content_stealer.py - stealing over file contents  
   listdir.py - sending over user dir listing (INE PTS course)  
   brute-login.py - bruteforcing web apps logins  
+  shift-brute.py - bruteforce shifts to decrypt shift cipher  
+
