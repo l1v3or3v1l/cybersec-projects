@@ -6,6 +6,6 @@
   keylogger.cpp - logs keystrokes and sends em  back to haxor guy  
   dirsend.cpp - sending directory listing of USER folder over to attacker to grab a flag (INE PTS course)  
   backdoor.py - send sys info over to haxor (INE PTS course)  
-  content_stealer.py - sending over file contents  
+  content_stealer.py - stealing over file contents  
   listdir.py - sending over user dir listing (INE PTS course)  
   brute-login.py - bruteforcing web apps logins  
