@@ -1,6 +1,6 @@
 
 def main():
-    encodedStr = input()
+    encodedStr = input("Enter string to decrypt : ")
     for shiftVal in range(1, 26):
         possDecodedStr = ""
         for char in encodedStr:
