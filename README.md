@@ -11,6 +11,6 @@
   shift_brute.py - bruteforce shifts to decrypt shift cipher  
   b64.py - base64 encode & decode using python base64 library  
   b64enc_manual.py - base64 encoding without python library  
-  axfr.py - DNS zonetransfer (OSCP PWK course)
-  psweep.py - ping sweep (OSCP PWK course)
+  axfr.py - DNS zonetransfer (OSCP PWK course)  
+  psweep.py - ping sweep (OSCP PWK course)  
   filenamesfinder.py - using grep, finding filenames in file. (OSCP PWK course)
