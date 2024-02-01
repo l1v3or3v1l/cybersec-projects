@@ -12,3 +12,5 @@
   shift_brute.py - bruteforce shifts to decrypt shift cipher  
   b64.py - base64 encode & decode using python base64 library  
   b64enc_manual.py - base64 enocding without python library  
+  axfr.py - DNS zonetransfer
+  
