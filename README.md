@@ -14,4 +14,4 @@
   portscan.py - Scan for open ports in an IP  
   psweep.py - ping sweep (OSCP PWK course)  
   shift_brute.py - bruteforce shifts to decrypt shift cipher  
-  
+  vrfy-ips.py - VRFY command on smtp list of ip using a single username
